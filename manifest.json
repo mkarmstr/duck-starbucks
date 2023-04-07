@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Duck Starbucks",
+  "version": "1.0",
+  "description": "Automatically removes national chains from Listed Google Maps results",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "images/duck-12.png"
+  },
+  "icons": {
+    "16": "images/duck-12.png",
+    "32": "images/duck-12.png",
+    "48": "images/duck-12.png",
+    "128": "images/duck-12.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [ "<all_urls>"
+      ],
+      "run_at" : "document_end"
+    }
+  ]
+
+}

@@ -1,19 +1,6 @@
-// Copyright 2022 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     https://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-
-window.addEventListener('DOMContentLoaded', () => {
-  // document.querySelector('[aria-label="Search Google Maps"]').addEventListener('click', () => console.log('dfasdfasdfdf'));
-});
+// window.addEventListener('DOMContentLoaded', () => {
+//   document.querySelector('[aria-label="Search Google Maps"]').addEventListener('click', () => console.log('dfasdfasdfdf'));
+// });
 
 const nationalChains = [
   "Starbucks",
@@ -61,9 +48,7 @@ const nationalChains = [
   "Smashburger",
   "Gregorys Coffee"
 ];
-// See the License for the specific language governing permissions and
-// limitations under the License.
-// console.log('fuu2uc');
+
 // document.querySelector('#buttonTest').addEventListener('click', ()=>console.log('dfdf') )
 // console.log('just a log');
 // function addToArray() {
@@ -82,21 +67,9 @@ function main() {
   
 }
 
-// console.log(inputBox.value);
-
-// document.querySelector([aria-label="Search"]).addEventListener('click', ()=>console.log('dfdf')))
-
-
 let count = 0;
 while(count < 5*240) {
   setTimeout(main, 200*count);
   count++;
 }
 
-
-// window.document.addEventListener('click', (e) => {
-//   if (e.code === 'Enter') {
-//     console.log('ffdsfa');
-//     main();
-//   }
-// })
